@@ -10,6 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20111020185906) do
 
   create_table "users", :force => true do |t|
@@ -20,5 +21,8 @@ ActiveRecord::Schema.define(:version => 20111020185906) do
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
+=======
+ActiveRecord::Schema.define(:version => 0) do
+>>>>>>> 214cc4f6c49b2b2a2b5ce2aaa986f67f8930a8c0
 
 end

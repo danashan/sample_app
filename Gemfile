@@ -4,7 +4,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 214cc4f6c49b2b2a2b5ce2aaa986f67f8930a8c0
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -24,7 +27,10 @@ end
 group :development do
 
 gem 'rspec-rails', '2.6.1'
+<<<<<<< HEAD
 gem 'annotate', '2.4.1.beta1'
+=======
+>>>>>>> 214cc4f6c49b2b2a2b5ce2aaa986f67f8930a8c0
 
 end
 
