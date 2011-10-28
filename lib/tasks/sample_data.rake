@@ -1,4 +1,4 @@
-require 'faker'
+#require 'faker' commented out for heroku, moved to line 9
 
 # rake db:populate
 namespace :db do
@@ -6,6 +6,7 @@ namespace :db do
   # :environment is required so we have access to the local Rails
   # environment, including User.create!.
   task :populate => :environment do
+    require 'faker'
     Rake::Task['db:reset'].invoke # clear the DB
     admin = User.create!(:name => "Example User",
                  :email => "example@railstutorial.org",
